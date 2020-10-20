@@ -10,7 +10,7 @@
         "--share=ipc",
         "--socket=x11",
         "--socket=pulseaudio",
-        "--filesystem=~/Leikr:create",
+        "--filesystem=home",
         "--device=all"
     ],
     "modules": [
@@ -28,8 +28,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Torbuntu/Leikr/releases/download/1.0.2/Leikr.tar.xz",
-                    "sha256": "818af0702b583985e94fda99eeb9e5b831005057c786d0cb28cc60a5f4247528",
+                    "url": "https://github.com/Torbuntu/Leikr/releases/download/1.0.3/Leikr.tar.xz",
+                    "sha256": "0be6b7ab7fb79602aa33ec7e4538406bf605251211ca5a9f1c6e3a38c15c50e0",
                     "dest": "Leikr"
                 }
             ]
