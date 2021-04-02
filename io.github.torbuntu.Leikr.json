@@ -10,7 +10,8 @@
         "--share=ipc",
         "--socket=x11",
         "--socket=pulseaudio",
-        "--filesystem=home",
+	"--socket=system-bus",
+	"--filesystem=home",
         "--device=all"
     ],
     "modules": [
