@@ -29,8 +29,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Torbuntu/Leikr/releases/download/1.0.5/Leikr.tar.xz",
-                    "sha256": "bd31656514048c79805cc213a76a75cdfd5bcd8a44026b3148b48a09bf12d8a4",
+                    "url": "https://github.com/Torbuntu/Leikr/releases/download/1.0.6/Leikr.tar.xz",
+                    "sha256": "8785221835fff5aa105ee3786a7604f855fde2b9580aeb6e96b226789b02edaf",
                     "dest": "Leikr"
                 }
             ]
