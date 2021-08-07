@@ -10,18 +10,22 @@
         "--share=ipc",
         "--socket=x11",
         "--socket=pulseaudio",
-	"--socket=system-bus",
-	"--filesystem=home",
+		"--socket=system-bus",
+		"--filesystem=home",
         "--device=all"
     ],
     "modules": [
+		{
+			"name": "openjdk",
+			"buildsystem": "simple",
+			"build-commands": ["/usr/lib/sdk/openjdk/install.sh"]
+		},
         {
             "name": "leikr",
             "buildsystem": "simple",
             "build-commands": [
-                "/usr/lib/sdk/openjdk/install.sh",
                 "install -d /app/Leikr/",
-                "mv Leikr/* /app/Leikr/",
+				"mv Leikr/* /app/Leikr/",
                 "install -Dm644 /app/Leikr/io.github.torbuntu.Leikr.appdata.xml /app/share/appdata/io.github.torbuntu.Leikr.appdata.xml",
                 "install -Dm644 --target-directory=/app/share/applications/ /app/Leikr/Data/io.github.torbuntu.Leikr.desktop",
                 "install -Dm644 /app/Leikr/Data/Logo/io.github.torbuntu.Leikr.png /app/share/icons/hicolor/128x128/apps/io.github.torbuntu.Leikr.png"
@@ -29,8 +33,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Torbuntu/Leikr/releases/download/1.0.7/Leikr.tar.xz",
-                    "sha256": "1d06b4617f5817b7a5cdfbce7e94410e699e8e4e02b75b2794b556b7305d05a0",
+                    "url": "https://github.com/Torbuntu/Leikr/releases/download/1.0.8/Leikr.tar.xz",
+                    "sha256": "514907e25dba8c1823930a77f78285458d6b0f6c956088e3bb0edfce438a8496",
                     "dest": "Leikr"
                 }
             ]
