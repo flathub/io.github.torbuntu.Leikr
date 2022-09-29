@@ -1,7 +1,7 @@
 {
     "id": "io.github.torbuntu.Leikr",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "20.08",
+    "runtime-version": "21.08",
     "command": "/app/Leikr/Leikr",
     "sdk": "org.freedesktop.Sdk",
     "sdk-extensions": [
@@ -36,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Torbuntu/Leikr/releases/download/v1.10.0/Leikr.tar.xz",
-                    "sha256": "ddc5ecc274b30b1a0d5f6774e06925af945f29bc8672f37484ccf233e34b0d52",
+                    "url": "https://github.com/Torbuntu/Leikr/releases/download/v1.11.0/Leikr.tar.xz",
+                    "sha256": "5871be7cf760555d581fb9ff19e91b16899bfada715d709a9fd3bb5e2d120e23",
                     "dest": "Leikr"
                 }
             ]
